@@ -1,0 +1,67 @@
+Install github
+git config --global username "Nency"
+git config --global email "nency@gmail.com"
+
+for initial git
+=================
+git init
+
+for check git config details
+==============================
+git config
+
+for check config list
+========================================
+git config --list
+
+for delete .git
+=============================
+rm -rf .git
+
+for check git status
+=============================
+git status
+
+for check git log
+==============================
+git log
+
+for add working directory to stagging area
+===========================================
+git add --a 
+git add .
+
+for add comment in staging area
+===========================================
+git commit -m "git comit line"
+
+for download any git zip on internet
+==============================================
+git clone https://github.com/tensorflow/tensorflow.git
+
+for create any empty file
+==============================================
+touch error.log
+
+for create gitignore empty file
+======================================================
+touch .gitignore
+
+for ignore file/folder in git
+==========================================
+crete .gitignore file & write the ignore file/folder name in .gitignore file
+example:
+error.log
+*.log
+/dir/
+static/dir
+
+for compare staging area with working area
+================================================
+git diff
+
+for compare staging area with last commit
+================================================
+git diff --staged
+
+ 
