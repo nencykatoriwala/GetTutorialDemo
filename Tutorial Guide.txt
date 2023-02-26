@@ -72,6 +72,15 @@ for delete file in wordking & staging both areas
 ==================================================
 git rm third.txt
 
+for rename file in working & staging both areas
+===================================================
+git mv first.txt first_renamed.txt
+
+for untacked file in staging area[if you are tracked some file & you want to remove file staging but keep in working area]
+================================================
+git rm --catched t1.txt
+
+
 
 
 
