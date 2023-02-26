@@ -64,4 +64,16 @@ for compare staging area with last commit
 ================================================
 git diff --staged
 
+for modified file Direct commit (but only tracked file[file which is alredy in staging] not untracked file)
+==================================================
+git commit -a -m "Direct commit"
+
+for delete file in wordking & staging both areas
+==================================================
+git rm third.txt
+
+
+
+
+
  
