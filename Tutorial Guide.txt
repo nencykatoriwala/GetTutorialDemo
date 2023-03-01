@@ -80,7 +80,48 @@ for untacked file in staging area[if you are tracked some file & you want to rem
 ================================================
 git rm --catched t1.txt
 
+for view all changes in files with commit in details
+=========================================================
+git log -p
+git log -p -3 [for show only 3 commit with details]
 
+for view log with short discription
+=====================================================
+git log --stat
+
+for view all commit in one line
+=======================================================
+git log --pretty=oneline
+git log --pretty=short [for short discription]
+git log --pretty=full  [for full discription]
+
+for view commit with time log (Duration)
+======================================================
+git log --since=2.days [for display only last 2 days cmmit]
+git log --since=2.weeks [for display only last 2 weeks cmmit]
+git log --since=2.months [for display only last 2 months cmmit]
+git log --pretty=format:"%h -- %an" [where h as abbribate commit code & an as author name]
+
+for change commit
+=========================================
+git commit --amend
+then press i & change the commit & press esc key & type :wq
+
+for unstaged any file
+=============================================
+git restore --staged first.txt
+
+for remove all changes in file or go back to last commit
+===========================================================
+git checkout -- first.txt
+
+for move the working area to the last commit
+===================================================
+git checkout -f
+
+for create, view, and delete connections to other repositories
+===============================================================
+git remote
 
 
 
