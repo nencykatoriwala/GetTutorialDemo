@@ -123,7 +123,30 @@ for create, view, and delete connections to other repositories
 ===============================================================
 git remote
 
+for add new remote [origin is a varible to store remote directory]
+===============================================================
+git remote add origin https://github.com/nencykatoriwala/GetTutorialDemo.git
+
+for show remote pull & push url
+======================================================================
+git remote -v
 
 
 
- 
+*********FOR ACCESS PERMISSION REMOTE****************************
+=> go to the github.com->login to your account then account->settings
+=> go to the SSH and GPG keys tab in left panel
+=> click on new SSH key then type the title like: nency personal computer
+=> go to the git bash & paste it
+    ssh-keygen -t ed25519 -C "your_email@example.com"
+    then press Enter (press enter until comand promt display)
+=> now your SSH key generated
+=> check your SSH id 
+   eval "$(ssh-agent -s)"
+=> Add ssH private key to SSH Agent [change id_ed25519 to your id like id_nen]
+   ssh-add ~/.ssh/id_ed25519 
+=> get your SSH key 
+   tail ~/.ssh/id_ed25519.pub
+
+
+
